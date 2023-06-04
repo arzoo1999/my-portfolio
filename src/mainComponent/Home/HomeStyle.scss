@@ -18,6 +18,12 @@
 }
 @media (max-width: 599px) {
   .homePageContainerStyle {
-    font-size: 50px;
+    font-size: 35px;
+  }
+  .homeMainStyle {
+    height: 60vh;
+  }
+  .homePageContainerStyle {
+    height: 50vh;
   }
 }
