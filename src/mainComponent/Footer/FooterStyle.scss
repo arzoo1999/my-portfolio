@@ -1,0 +1,64 @@
+.footerMainContainer {
+  width: 100%;
+  height: 30vh;
+  background-color: #5225d2;
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-around;
+}
+.logoFooterContainer {
+  border: 2px solid white;
+  width: 15%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   margin: 2% 12% 2% 4%;
+  height: 150px;
+}
+.logoFooter {
+  font-weight: 900;
+  font-size: 5rem;
+  color: white;
+}
+.emailBorderFooterStyle {
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 2%;
+}
+.emailFooterContainerStyle {
+  background-color: #5225d2;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+.emailFooterContainerStyle::placeholder {
+  background-color: #5225d2;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.emailFooterContainerStyle .ant-input::placeholder .emailFooterContainerStyle {
+  color: white;
+  border: none !important;
+  border-color: #5225d2;
+  font-family: "Nunito", sans-serif;
+}
+.footerSubscribeButtonStyle {
+  background-color: #0059e7;
+  border: none;
+  color: #fcfdff;
+  font-family: "Nunito", sans-serif;
+}
+.aboutMeStyle {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+}
+.aboutMePara {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding-top: 2%;
+}

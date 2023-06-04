@@ -1,0 +1,58 @@
+.logo {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+.logoContainer {
+  border: 2px solid white;
+  width: 4%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 12% 2% 4%;
+}
+.navStyle {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5225d2;
+  overflow: hidden;
+  z-index: 999;
+}
+.navContentStyle {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+.navContent {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none !important;
+  font-family: "Gill Sans", sans-serif;
+  position: relative;
+  color: white;
+}
+.navContentStyle {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  // max-width: 80%; /* Adjust the value to control the maximum width of the navContentStyle container */
+}
+
+// .navContent {
+//   font-weight: 600;
+//   font-size: 16px;
+//   padding: 10px 15px;
+//   display: inline-block;
+//   text-decoration: none !important;
+//   font-family: "Gill Sans", sans-serif;
+//   position: relative;
+//   color: white;
+//   white-space: nowrap; /* Prevent the link from wrapping to a new line */
+// }

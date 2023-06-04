@@ -1,0 +1,47 @@
+.experienceHeadingStyle {
+  margin: 5%;
+}
+.experienceCard {
+  display: flex;
+  margin: 0 3% 0 3%;
+}
+.iconContainerStyle {
+  width: 57px;
+  background-color: royalblue;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 0 2% 0 2%;
+  height: 57px;
+  border: 2px solid grey;
+}
+.experienceCardStyle {
+  background-color: #f2f3f7;
+  padding: 2%;
+  width: 80%;
+  margin: 0 2% 2% 0;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px 0px;
+}
+.experienceCardHeadingStyle {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  padding: 0 0 2% 1%;
+}
+.experienceDescriptionStyle {
+  font-family: "Nunito", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  /* identical to box height, or 27px */
+  margin-top: 1%;
+  letter-spacing: 0.1em;
+
+  color: #a5a2b8;
+}

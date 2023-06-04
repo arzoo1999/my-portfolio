@@ -1,0 +1,48 @@
+.expertiseTitleStyle {
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+}
+.expertiseContainerStyle {
+  margin: 5%;
+}
+.cardStyle {
+  width: 25%;
+  height: 150px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 8% 2% 5% 2%;
+  border-radius: 12px;
+  border-bottom: 1px solid red;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.iconStyle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: -50%;
+}
+.titleStyle {
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+  font-size: 30px;
+}
+.cardContainerStyle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,99 @@
+// .bioImageStyle {
+//   width: 80%;
+//   height: 80vh;
+//   box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 15px;
+//   border-radius: 24px;
+// }
+.bioImageContainerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bioStyle {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  // height: 100vh;
+  margin: 5% 5% 5% 5%;
+}
+.bioTextContainerStyle {
+  width: 40%;
+}
+.myBioHeadingStyle {
+  margin-bottom: 4%;
+  line-height: 1.2;
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+}
+.myBioParaStyle {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+  background: #ffffff;
+  overflow-x: hidden;
+  font-size: 16px;
+  color: #939393;
+}
+.progessHeadingStyle {
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 2%;
+}
+.bioImageStyle {
+  width: 80%;
+  height: 80vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 15px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+.downloadResumeButton {
+  height: 55px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  font-family: "Nunito", sans-serif;
+  width: 200px;
+}
+.hiredbuttonButton {
+  height: 55px;
+  font-weight: 700;
+  color: #fff;
+  background: #96bb7c;
+  border-color: #96bb7c;
+  margin: 5%;
+  font-family: "Nunito", sans-serif;
+  width: 120px;
+}
+.downloadResumeButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8%;
+}
+// img {
+//   width: 100%;
+//   height: auto;
+// }

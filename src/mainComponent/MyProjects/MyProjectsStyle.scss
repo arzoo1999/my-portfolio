@@ -1,0 +1,60 @@
+.companyContainerStyle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7%;
+}
+.companyNameStyle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 105%;
+  letter-spacing: -0.03em;
+  color: #006fba;
+  padding-left: 4%;
+  font-family: "Poppins";
+}
+.companyPortfolioStyle {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+}
+.companyPortfolioImageStyle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 3%;
+}
+.companyPortfolioNameStyle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #4e4e4e;
+  padding: 2% 0 1% 0;
+}
+.companyDivStyle {
+  border-radius: 40px;
+  padding: 13%;
+  margin: 2%;
+  box-shadow: rgba(100, 100, 111, 0.2) 5px 10px 15px 10px;
+}
+.trustedHeadingStyle {
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 129%;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #4e4e4e;
+  justify-content: center;
+}
+.carasoleButtonStyle {
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+}
