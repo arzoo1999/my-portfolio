@@ -46,3 +46,26 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 750px) {
+  .cardStyle {
+    width: 44%;
+    margin-bottom: 15%;
+  }
+  .cardContainerStyle {
+    margin-top: 9%;
+  }
+}
+@media (max-width: 500px) {
+  .cardStyle {
+    width: 80%;
+    margin-bottom: 10%;
+    height: 190px;
+  }
+  .cardContainerStyle {
+    margin-top: 9%;
+    justify-content: center;
+  }
+  .iconStyle {
+    margin-top: -29%;
+  }
+}

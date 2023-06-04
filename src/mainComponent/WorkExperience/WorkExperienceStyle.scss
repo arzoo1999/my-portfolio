@@ -45,3 +45,17 @@
 
   color: #a5a2b8;
 }
+@media (max-width: 1000px) {
+  .experienceCard {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .iconContainerStyle {
+    display: none;
+  }
+  .experienceCard {
+    display: flex;
+    justify-content: center;
+  }
+}

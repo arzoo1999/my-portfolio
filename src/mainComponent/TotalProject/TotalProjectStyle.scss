@@ -26,3 +26,8 @@
   padding: 5% 0 5% 0;
   background-color: #e7eaef;
 }
+@media (max-width: 500px) {
+  .totalContainer {
+    flex-direction: column;
+  }
+}

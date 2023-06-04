@@ -1,11 +1,26 @@
 import "./MyProjectsStyle.scss";
 import { Carousel, Row, Col, Card, Button, Typography } from "antd";
 import { LeftCircleOutlined, RightCircleOutlined } from "@ant-design/icons";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 const MyProjects = () => {
   const carouselRef = useRef();
   const { Title, Paragraph } = Typography;
+  const [isDesktop, setIsDesktop] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 600);
+    };
+
+    handleResize(); // Initial check
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const carouselData = [
     {
       id: 1,
@@ -46,7 +61,7 @@ const MyProjects = () => {
     // add more or less as you need
   ];
   const chunkedCarouselData = [];
-  const chunkSize = 3;
+  const chunkSize = isDesktop ? 3 : 1;
   for (let i = 0; i < carouselData.length; i += chunkSize) {
     chunkedCarouselData.push(carouselData.slice(i, i + chunkSize));
   }
