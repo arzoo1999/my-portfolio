@@ -33,7 +33,7 @@ const Footer = () => {
                 placeholder="Email"
               />
               <Button className="footerSubscribeButtonStyle">
-                Subcribe <ArrowRightOutlined />
+                <ArrowRightOutlined />
               </Button>
             </div>
           </div>

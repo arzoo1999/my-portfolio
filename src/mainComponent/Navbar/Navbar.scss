@@ -5,7 +5,7 @@
 }
 .logoContainer {
   border: 2px solid white;
-  width: 4%;
+  width: 6%;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -56,3 +56,16 @@
 //   color: white;
 //   white-space: nowrap; /* Prevent the link from wrapping to a new line */
 // }
+@media (max-width: 599px) {
+  .navContentStyle {
+    width: 100%;
+  }
+  .logoContainer {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .logoContainer {
+    width: 10%;
+  }
+}

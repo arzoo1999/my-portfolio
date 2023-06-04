@@ -62,3 +62,16 @@
   font-family: "Nunito", sans-serif;
   padding-top: 2%;
 }
+@media (max-width: 600px) {
+  .logoFooterContainer {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .logoFooterContainer {
+    width: 22%;
+  }
+  .footerMainContainer {
+    height: 20vh;
+  }
+}
